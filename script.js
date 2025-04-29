@@ -2,7 +2,7 @@ const canvas = document.getElementById('canvas1');
 const ctx = canvas.getContext('2d');
 
 const image1 = new Image();
-image1.src = 'https://raw.githubusercontent.com/gurraoptimus/AsciiForge/refs/heads/main/imagedata'; // Replace this with URL or your image path
+image1.src = 'https://raw.githubusercontent.com/gurraoptimus/AsciiForge/refs/heads/main/imagedata.txt'; // Replace this with URL or your image path
 
 class AsciiEffect {
     #imageCellArray = [];

@@ -23,8 +23,10 @@
 
 ## Main Code
 ✔ [index](index.html)
+
 ❌[script JS](script.js) debug.
-✔ [style](styles.css)
+
+✔ [styles](styles.css)
 
 
 ## License

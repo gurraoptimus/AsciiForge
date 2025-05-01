@@ -2,7 +2,7 @@ const canvas = document.getElementById('canvas1');
 const ctx = canvas.getContext('2d');
 
 const image1 = new Image();
-image1.src = 'imagedata.txt'; // Replace this with URL or your image path
+image1.src = 'bellebunbunny.jpg'; // Replace this with URL or your image path
 
 class AsciiEffect {
     #imageCellArray = [];
@@ -22,7 +22,11 @@ class AsciiEffect {
     #scanImage(cellSize) {
         this.#imageCellArray = [];
         for (let y = 0; y < this.#pixels.height; y += cellSize) {
-            
+            for (let x = 0; x < this.#pixels.width; x += cellSize) {
+                const posX = x * 4;
+                const posY = y * 4;
+                const pos = (posY )
+            }
         }
     }
 }
